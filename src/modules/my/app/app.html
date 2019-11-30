@@ -1,0 +1,109 @@
+<template>
+    <ui-nav style="margin-bottom: 1rem;">
+        <ui-nav-brand href="/magnetic-tiles">
+            <ui-icon slot="logo" path={mdiDiceD20}></ui-icon>
+            Magnetic Tiles
+        </ui-nav-brand>
+        <ui-nav-item href="https://github.com/Templarian/magnetic-tiles">
+            <ui-icon path={mdiGithubCircle}></ui-icon>
+        </ui-nav-item>
+    </ui-nav>
+    <div class="container">
+        <ui-flex>
+            <ui-flex flex="3" column class="mr-2">
+                <h2>Introduction</h2>
+                <p>Each magnetic tile not only magnets to one another, but allow walls and character pieces to snap in place. Reusable bases ensure that a majority of magnets are seperate from the growing collection of tiles and walls.</p>
+            </ui-flex>
+            <ui-flex flex="2" column>
+                <ui-card>
+                    <ui-card-header>Features</ui-card-header>
+                    <ui-card-body>
+                        <ul>
+                            <li>
+                                <ui-icon path={mdiBorderNoneVariant}></ui-icon>
+                                1.25 inch grid
+                            </li>
+                            <li>
+                                <ui-icon path={mdiAccountBox}></ui-icon>
+                                1 inch base minatures
+                            </li>
+                            <li>
+                                <ui-icon path={mdiBorderStyle}></ui-icon>
+                                0.25 inch walls
+                            </li>
+                        </ul>
+                    </ui-card-body>
+                </ui-card>
+            </ui-flex>
+        </ui-flex>
+        <ui-flex>
+            <ui-flex flex="3" column class="mr-2">
+                <h2>Getting Started</h2>
+                <p>All STL files need to be scaled to <code>50%</code>. Start by printing several <code>top.stl</code>, <code>base.stl</code>, and <code>tile-blank.stl</code> models. Print one <code>rig.stl</code> file as a way to align <code>top</code> and <code>tile-*</code> models while gluing them together.</p>
+                <p>Print a few walls to get an idea of how the magnets connect between tiles.</p>
+            </ui-flex>
+                <ui-flex flex="2" column>
+                    <ui-card class="mt-5">
+                        <ui-card-header>Requirements</ui-card-header>
+                        <ui-card-body>
+                            <ul>
+                                <li>
+                                    <ui-icon path={mdiChevronRight}></ui-icon>
+                                    Base uses 6x6x2mm cylinder magnets
+                                </li>
+                                <li>
+                                    <ui-icon path={mdiChevronRight}></ui-icon>
+                                    Top uses 6x6x2mm cylinder magnets
+                                </li>
+                                <li>
+                                    <ui-icon path={mdiChevronRight}></ui-icon>
+                                    Walls use 4x4x4 cyclinder magnets
+                                </li>
+                                <li>
+                                    <ui-icon path={mdiCommentAlert}></ui-icon>
+                                    Top magets are optional
+                                </li>
+                            </ul>
+                        </ui-card-body>
+                    </ui-card>
+                </ui-flex>
+        </ui-flex>
+        <ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="top.stl" rotation-x="45" rotation-y="45"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="base.stl"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="tile-blank.stl" rotation-x="270"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="rig.stl"></my-stl>
+            </ui-flex>
+        </ui-flex>
+        <ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="wall-full.stl" rotation-y="180" rotation-z="180"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1"></ui-flex>
+            <ui-flex flex="1"></ui-flex>
+            <ui-flex flex="1"></ui-flex>
+        </ui-flex>
+        <h2>Everything Else...</h2>
+        <p>Once trying out the system with the above tiles you can move to printing some of the more decorative tiles.</p>
+        <ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="tile-brick.stl" rotation-x="270"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1">
+                <my-stl file="tile-brick-arrow.stl" rotation-x="270"></my-stl>
+            </ui-flex>
+            <ui-flex flex="1"></ui-flex>
+            <ui-flex flex="1"></ui-flex>
+        </ui-flex>
+        <h2>Want to Contribute?</h2>
+        <p>Each of the <code>tile-*</code> and <code>wall-*</code> models follow the same specs allowing for easy contribution from those that know any 3D Software.</p>
+        <p>These were all built in TinkerCAD a free online software for creating 3D models.</p>
+    </div>
+</template>

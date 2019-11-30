@@ -1,0 +1,15 @@
+<template>
+    <ui-card>
+        <ui-card-body>
+            <div class="stl">
+                <div lwc:dom="manual" class="webgl"></div>
+                <div class="name">{file}</div>
+                <ui-icon path={mdiRotate3d}></ui-icon>
+            </div>
+            <ui-button block href={href}>
+                <ui-icon slot="left" path={mdiDownload}></ui-icon>
+                Download
+            </ui-button>
+        </ui-card-body>
+    </ui-card>
+</template>

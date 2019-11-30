@@ -1,0 +1,34 @@
+.stl {
+    box-shadow: rgba(0,0,0,0.2) 0 0 5px inset;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.webgl {
+    width: 200px;
+    height: 180px;
+}
+
+.name {
+    background: #FFF;
+    padding: 0.25rem 0.5rem;
+    box-shadow: rgba(0,0,0,0.2) 0 0 5px;
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-radius: 0 0 0.25rem 0.25rem;
+    color: #333;
+}
+
+ui-card {
+    break-inside: avoid;
+}
+
+.stl ui-icon {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    pointer-events: none;
+}
