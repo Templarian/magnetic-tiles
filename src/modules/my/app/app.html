@@ -42,31 +42,31 @@
                 <p>All STL files need to be scaled to <code>50%</code>. Start by printing several <code>top.stl</code>, <code>base.stl</code>, and <code>tile-blank.stl</code> models. Print one <code>rig.stl</code> file as a way to align <code>top</code> and <code>tile-*</code> models while gluing them together.</p>
                 <p>Print a few walls to get an idea of how the magnets connect between tiles.</p>
             </ui-flex>
-                <ui-flex flex="2" column>
-                    <ui-card class="mt-5">
-                        <ui-card-header>Requirements</ui-card-header>
-                        <ui-card-body>
-                            <ul>
-                                <li>
-                                    <ui-icon path={mdiChevronRight}></ui-icon>
-                                    Base uses 6x6x2mm cylinder magnets
-                                </li>
-                                <li>
-                                    <ui-icon path={mdiChevronRight}></ui-icon>
-                                    Top uses 6x6x2mm cylinder magnets
-                                </li>
-                                <li>
-                                    <ui-icon path={mdiChevronRight}></ui-icon>
-                                    Walls use 4x4x4 cyclinder magnets
-                                </li>
-                                <li>
-                                    <ui-icon path={mdiCommentAlert}></ui-icon>
-                                    Top magets are optional
-                                </li>
-                            </ul>
-                        </ui-card-body>
-                    </ui-card>
-                </ui-flex>
+            <ui-flex flex="2" column>
+                <ui-card class="mt-5">
+                    <ui-card-header>Requirements</ui-card-header>
+                    <ui-card-body>
+                        <ul>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Base uses 6x6x2mm cylinder magnets
+                            </li>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Top uses 6x6x2mm cylinder magnets
+                            </li>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Walls use 4x4x4 cyclinder magnets
+                            </li>
+                            <li>
+                                <ui-icon path={mdiCommentAlert}></ui-icon>
+                                Top magets are optional
+                            </li>
+                        </ul>
+                    </ui-card-body>
+                </ui-card>
+            </ui-flex>
         </ui-flex>
         <ui-flex>
             <ui-flex flex="1">
@@ -102,8 +102,37 @@
             <ui-flex flex="1"></ui-flex>
             <ui-flex flex="1"></ui-flex>
         </ui-flex>
-        <h2>Want to Contribute?</h2>
-        <p>Each of the <code>tile-*</code> and <code>wall-*</code> models follow the same specs allowing for easy contribution from those that know any 3D Software.</p>
-        <p>These were all built in TinkerCAD a free online software for creating 3D models.</p>
+        <ui-flex>
+            <ui-flex flex="3" column class="mr-2">
+                <h2>Want to Contribute?</h2>
+                <p>Each of the <code>tile-*</code> and <code>wall-*</code> models follow the same specs allowing for easy contribution from those that know any 3D Software.</p>
+                <p>These were all built in TinkerCAD a free online software for creating 3D models.</p>
+            </ui-flex>
+            <ui-flex flex="2" column>
+                <ui-card class="mt-5">
+                    <ui-card-header>GitHub</ui-card-header>
+                    <ui-card-body>
+                        <ul>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Open an <a href="https://github.com/Templarian/magnetic-tiles/issues" target="_blank">Issue</a>
+                            </li>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Zip STL file and attach to issue
+                            </li>
+                            <li>
+                                <ui-icon path={mdiChevronRight}></ui-icon>
+                                Be sure to be descriptive in the name and the tiles purpose.
+                            </li>
+                            <li>
+                                <ui-icon path={mdiCommentAlert}></ui-icon>
+                                For wall contributions ensure you include all variants.
+                            </li>
+                        </ul>
+                    </ui-card-body>
+                </ui-card>
+            </ui-flex>
+        </ui-flex>
     </div>
 </template>
