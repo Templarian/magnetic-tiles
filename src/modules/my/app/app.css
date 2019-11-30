@@ -68,6 +68,10 @@ my-stl {
     margin-bottom: 0.5rem;
 }
 
+.flex-item:empty {
+    margin-bottom: 0;
+}
+
 .flex-spacer {
     width: 0.5rem;
 }
