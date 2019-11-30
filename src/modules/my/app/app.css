@@ -57,3 +57,53 @@ ul li ui-icon {
 my-stl {
     margin-bottom: 0.5rem;
 }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    flex: 1;
+    margin-bottom: 0.5rem;
+}
+
+.flex-spacer {
+    width: 0.5rem;
+}
+
+.content {
+    flex: 3;
+    margin-right: 0.5rem;
+}
+
+.details {
+    flex: 2;
+}
+
+@media (max-width: 480px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        margin-top: 0.5rem;
+    }
+
+    .flex-spacer {
+        width: 0;
+    }
+
+    .content {
+        flex: 1;
+        margin-right: 0;
+    }
+
+    .details {
+        flex: 1;
+    }
+
+    .mt-5 {
+        margin-top: 0;
+    }
+}

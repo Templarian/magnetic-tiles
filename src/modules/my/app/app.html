@@ -9,12 +9,12 @@
         </ui-nav-item>
     </ui-nav>
     <div class="container">
-        <ui-flex>
-            <ui-flex flex="3" column class="mr-2">
+        <div class="flex">
+            <div class="content">
                 <h2>Introduction</h2>
                 <p>Each magnetic tile not only magnets to one another, but allow walls and character pieces to snap in place. Reusable bases ensure that a majority of magnets are seperate from the growing collection of tiles and walls.</p>
-            </ui-flex>
-            <ui-flex flex="2" column>
+            </div>
+            <div class="details">
                 <ui-card>
                     <ui-card-header>Features</ui-card-header>
                     <ui-card-body>
@@ -34,15 +34,15 @@
                         </ul>
                     </ui-card-body>
                 </ui-card>
-            </ui-flex>
-        </ui-flex>
-        <ui-flex>
-            <ui-flex flex="3" column class="mr-2">
+            </div>
+        </div>
+        <div class="flex">
+            <div class="content">
                 <h2>Getting Started</h2>
                 <p>All STL files need to be scaled to <code>50%</code>. Start by printing several <code>top.stl</code>, <code>base.stl</code>, and <code>tile-blank.stl</code> models. Print one <code>rig.stl</code> file as a way to align <code>top</code> and <code>tile-*</code> models while gluing them together.</p>
-                <p>Print a few walls to get an idea of how the magnets connect between tiles.</p>
-            </ui-flex>
-            <ui-flex flex="2" column>
+                <p>Print a few walls to get an idea of how the magnets connect between tiles. After deciding if this system works for your gameplay move on to the decorative tiles.</p>
+            </div>
+            <div class="details">
                 <ui-card class="mt-5">
                     <ui-card-header>Requirements</ui-card-header>
                     <ui-card-body>
@@ -66,53 +66,62 @@
                         </ul>
                     </ui-card-body>
                 </ui-card>
-            </ui-flex>
-        </ui-flex>
-        <ui-flex>
-            <ui-flex flex="1">
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item">
                 <my-stl file="top.stl" rotation-x="45" rotation-y="45"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="base.stl"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="tile-blank.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="rig.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-        </ui-flex>
-        <ui-flex>
-            <ui-flex flex="1">
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item">
                 <my-stl file="wall-full.stl" rotation-y="180" rotation-z="180"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1"></ui-flex>
-            <ui-flex flex="1"></ui-flex>
-            <ui-flex flex="1"></ui-flex>
-        </ui-flex>
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item"></div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item"></div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item"></div>
+        </div>
         <h2>Everything Else...</h2>
         <p>Once trying out the system with the above tiles you can move to printing some of the more decorative tiles.</p>
-        <ui-flex>
-            <ui-flex flex="1">
+        <div class="flex">
+            <div class="flex-item">
                 <my-stl file="tile-blank-broken-1.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="tile-blank-grate.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="tile-brick.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-            <ui-flex flex="1">
+            </div>
+            <div class="flex-spacer"></div>
+            <div class="flex-item">
                 <my-stl file="tile-brick-arrow.stl" rotation-x="6.0" rotation-y="0.3"></my-stl>
-            </ui-flex>
-        </ui-flex>
-        <ui-flex>
-            <ui-flex flex="3" column class="mr-2">
+            </div>
+        </div>
+        <div class="flex">
+            <div class="content">
                 <h2>Want to Contribute?</h2>
                 <p>Each of the <code>tile-*</code> and <code>wall-*</code> models follow the same specs allowing for easy contribution from those that know any 3D Software.</p>
                 <p>These were all built in TinkerCAD a free online software for creating 3D models.</p>
-            </ui-flex>
-            <ui-flex flex="2" column>
+            </div>
+            <div class="details">
                 <ui-card class="mt-5">
                     <ui-card-header>GitHub</ui-card-header>
                     <ui-card-body>
@@ -136,7 +145,7 @@
                         </ul>
                     </ui-card-body>
                 </ui-card>
-            </ui-flex>
-        </ui-flex>
+            </div>
+        </div>
     </div>
 </template>

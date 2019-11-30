@@ -22,13 +22,15 @@
     color: #333;
 }
 
-ui-card {
-    break-inside: avoid;
-}
-
 .stl ui-icon {
     position: absolute;
     top: 0.25rem;
     right: 0.25rem;
     pointer-events: none;
+}
+
+@media (max-width: 480px) {
+    .webgl {
+      width: 100%;
+    }
 }
