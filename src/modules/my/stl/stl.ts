@@ -11,7 +11,7 @@ export default class Stl extends LightningElement {
     @track mdiRotate3d = mdiRotate3d;
 
     get href() {
-        return `https://github.com/Templarian/magnetic-tiles/stl/${this._file}`;
+        return `https://github.com/Templarian/magnetic-tiles/blob/master/src/stl/${this._file}`;
     }
 
     @api
