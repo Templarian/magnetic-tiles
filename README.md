@@ -44,18 +44,18 @@ The following tiles will allow for basic creation of a map. Assuming these work 
 
 ## Frequently Asked Questions
 
-Q. Where to purchase magnets?
+Where to purchase magnets?
 
-> A. Amazon, etc...
+> Amazon, etc...
 
-Q. What kind of 3D printer is required?
+What kind of 3D printer is required?
 
-> A. Any consumer grade printer such as an Ender 3 will work fine.
+> Any consumer grade printer such as an Ender 3 will work fine.
 
-Q. How do miniatures magnet into place?
+How do miniatures magnet into place?
 
 > Place a magnet perferably 6x6x2mm in the center of the base.
 
-Q. Why?
+Why?
 
-> A. Magnets.
+> Magnets.
