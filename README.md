@@ -52,6 +52,10 @@ Q. What kind of 3D printer is required?
 
 > A. Any consumer grade printer such as an Ender 3 will work fine.
 
+Q. How do player miniatures magnet into place?
+
+> Place a magnet perferably 6x6x2mm in the center of the base.
+
 Q. Why?
 
 > A. Magnets.
