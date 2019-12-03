@@ -3,7 +3,7 @@
 module.exports = {
     resources: [
         { from: 'src/resources', to: 'dist/resources' },
-        { from: 'src/stl', to: 'dist/stl' },
+        { from: 'stl', to: 'dist/stl' },
         { from: 'src/webgl_detector.js', to: 'dist/webgl_detector.js' },
         { from: 'src/CanvasRenderer.js', to: 'dist/CanvasRenderer.js' },
         { from: 'src/load_stl.min.js', to: 'dist/load_stl.min.js' },
