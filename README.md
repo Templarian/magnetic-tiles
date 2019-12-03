@@ -8,15 +8,15 @@ The following tiles will allow for basic creation of a map. Assuming these work 
 
 | File | Magnet Size | Required | Optional |
 | ---- | --- | --- | --- |
-| `base.stl` | 6x6x2 Cylinders | 12 | 4 |
+| `base.stl` | 6x6x2 Cylinder | 12 | 4 |
 | `top.stl` | 6x6x2 Cylinder | 0 | 0 / 2 / 4<sup>1</sup> |
 | `tile-blank.stl` | n/a | - | - |
 | `rig.stl`<sup>2</sup> | n/a | - | - |
-| `wall-full.stl` | 4x4x4 | 1 | 0 |
-| `wall-half.stl` | 4x4x4 | 1 | 0 |
-| `wall-quarter.stl` | 4x4x4 | 1 | 0 |
-| `wall-corner.stl` | 4x4x4 | 2 | 0 |
-| `wall-end.stl` | 4x4x4 | 3 | 0 |
+| `wall-full.stl` | 4x4x4 Cylinder | 1 | 0 |
+| `wall-half.stl` | 4x4x4 Cylinder | 1 | 0 |
+| `wall-quarter.stl` | 4x4x4 Cylinder | 1 | 0 |
+| `wall-corner.stl` | 4x4x4 Cylinder | 2 | 0 |
+| `wall-end.stl` | 4x4x4 Cylinder | 3 | 0 |
 
 <sub>1</sub> Base and Top click together, but for a more secure fit 2 diagonal magnets or all 4 can be used.
 
